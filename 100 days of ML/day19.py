@@ -40,3 +40,4 @@ print(df.duplicated().sum())  # tells if there are any duplicates values
 
 print(df.corr(numeric_only=True)['Survived']); # tells whether the cols have any relation between them
 # positive reltion means strong relation and neg means weak
+
